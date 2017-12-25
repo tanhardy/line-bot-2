@@ -15,3 +15,13 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"||$arrJson['e
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "สวัสดีเราเอง";
+
+ if op.type == 17:
+   if op.param2 in Bots:
+      return
+   ginfo = cl.getGroup(op.param1)
+   $arrPostData['messages'][0]['type'] = "text";(op.param1,cl.getContact(op.param2).displayName + "\nยินดีต้อนรับเข้าสู่ ....\nกลุ่ม➡ " + str(ginfo.name) + "\nBy :"  + ginfo.creator.displayName
+ if op.type == 15:
+   if op.param2 in Bots:
+      return
+   $arrPostData['messages'][0]['type'] = "text";(op.param1,cl.getContact(op.param2).displayName + "\nโอกาสหน้าเจอกันใหม่นะ ")
