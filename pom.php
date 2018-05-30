@@ -7,7 +7,7 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
 #cl.login(qr=True)
-cl.login(token="ki3KuOG8/YEahJovYylMjjeHBbTigV7Y9CiKIRxFXbb8OIRsnFSE/KkPf8082cts5rEyqcL3Ngo/MeqnFhZfe3ipVzviIosmvf8LO0yuaonrT5PzgB5MKVAnGxOOFSOVjJc2fGpGiNBeSw7q7tAlkQdB04t89/1O/w1cDnyilFU=")
+cl.login(token="D6Z4xq2AuLVdOcFKISGs2TrweRkyGswqentG6FL/QRI9K0c7+JximL1yUM6lftv/40sMUNVyDoMB1QN+708xZOyfVsFjHH3H5dqG87PenA+sgSuOoe2orpDmf+/LyfAKaIBbttboOMJLt3ADaO/G0QdB04t89/1O/w1cDnyilFU=")
 cl.loginResult()
 
 print "login success plak"
